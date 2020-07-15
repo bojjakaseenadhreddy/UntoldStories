@@ -43,7 +43,7 @@ public class MainActivity extends TutorialActivity {
 
     @Override
     public void finishTutorial() {
- //       Intent intent = new Intent(this,MainHomeActivity.class);
-   //     startActivity(intent);
+        Intent intent = new Intent(this,ManinHomeActivity.class);
+        startActivity(intent);
     }
 }
